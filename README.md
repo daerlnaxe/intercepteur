@@ -1,9 +1,16 @@
 # intercepteur
 
+        Keep in mind that i'm a noob with Python, 1 month i work with it.
+        
         Redirect to the messages handlers added (unlimited). Work with printwmh.py
         It can work with a message handler i made: herms.py if you don't want to develop it.
         For the moment this script is not published becaue all my project was written in another manner, so
         i must rewrite some parts, even if it work actually.
+        
+        All the solution is made for working with a complex network of loggers and level message, you can wanting redirect
+        all a message to several files and the terminal, but don't want to have the same messages level on the terminal and your                                          
+        logs files. Currently it work with my code with a short tail file for linux, a real log's file, a terminal and log 
+        temporarely only some instructions for the treatment of the file examinated, in a log file named like it.
 
         Intercept a writing signal, work with a message structured like this messHandler::lvlMess::message
         Your message handler must integrate a module named 'feed'
